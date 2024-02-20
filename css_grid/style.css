@@ -33,11 +33,12 @@ html {
 
 .sidebar {
   background-color: #005B94;
-  grid-column-start: 1;
+  /* grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 5;
+  grid-row-end: 5; */
   /* grid-area: 1/2/2/5; */
+  grid-area: 2/1/5/2;
 }
 
 .nav {
