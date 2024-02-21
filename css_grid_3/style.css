@@ -20,8 +20,14 @@
   
   .header {
     background-color: #393f4d;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   
+  .menu ul {
+    display: grid;
+  }
+
   .menu ul,
   .menu li {
     font-size: 16px;
@@ -29,6 +35,8 @@
   
   .sidebar {
     background-color: #C50208;
+    display: grid;
+    gap: 50px;
   }
   
   .sidebar .photo {
@@ -51,6 +59,10 @@
     background-color: #C50208;
   }
   
+  .nav ul {
+    display: grid;
+  }
+
   .nav ul li {
     font-size: 16px;
     text-transform: uppercase;
