@@ -42,7 +42,7 @@
     background-color: #C50208;
     display: grid;
     grid-template-columns: 1fr;
-    grid-row: 2;
+    /* grid-row: 2; */
     gap: 50px;
   }
    
@@ -64,15 +64,18 @@
    
   .nav {
     background-color: #C50208;
+   
   }
    
   .nav ul {
     display: grid;
+    grid-template-columns: repeat(3,1fr);
   }
    
   .nav ul li {
     font-size: 16px;
     text-transform: uppercase;
+    list-style-type: none;
   }
    
   .article {
