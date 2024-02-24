@@ -13,10 +13,30 @@
     grid-column: 2/3;
   }
   
+  .header ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  
+  .header .greeting_container {
+    display: grid;
+  }
+  
+  .header .greeting_container .pic_container{
+    display: grid;
+    /* grid-template-columns: ; */
+  }
+  
   .sidebar {
     display: grid;
     grid-column: 1/2;
+    grid-row: 1/2;
   }
+  
+  /* .sidebar .dashboard_logo {
+    display: grid;
+    gap: 50px;
+  } */
   
   .article {
     display: grid;
