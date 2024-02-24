@@ -18,15 +18,15 @@
     grid-template-columns: repeat(4,1fr);
   }
   
-  .header .greeting_container {
+  .header .greeting_container{
     display: grid;
+    grid-template-columns: 10% 50% 40%; 
   }
   
-  .header .greeting_container .pic_container{
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
-  }
-  
+  .header .menu{
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); 
+}
+
   .sidebar {
     display: grid;
     grid-column: 1/2;
