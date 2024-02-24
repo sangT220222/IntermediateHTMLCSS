@@ -41,11 +41,16 @@
   .article {
     display: grid;
     grid-column: 2/3;
+    grid-template-columns: 70% 30%;
+    /* gap: 20px; */
+  }
+
+  .left_article {
+    display: grid;
     grid-template-columns: 50% 50%;
-    gap: 20px;
   }
   
-  .right_sidebar {
+  .right_article{
     display: grid;
     grid-column: 2/3;
   }
