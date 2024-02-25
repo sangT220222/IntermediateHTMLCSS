@@ -35,11 +35,12 @@
 
   .search_bar ul{
     grid-template-columns: 10% 90%;
+    align-items: center;
   }
 
   .notify ul{
     grid-template-columns: repeat(3,1fr);
-
+    align-items: center;
   }
   .top_right_img{
     width: 50px;
