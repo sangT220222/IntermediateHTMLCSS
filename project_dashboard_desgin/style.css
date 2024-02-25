@@ -18,15 +18,6 @@
     /* grid-template-columns: repeat(4,1fr); */
     list-style-type: none;
   }
-  
-  .header .greeting_container{
-    display: grid;
-    grid-template-columns: 10% 50% 40%; 
-  }
-  
-  .header .menu{
-    grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); 
-  }
 
   .top_right {
     display: grid;
@@ -42,10 +33,25 @@
     grid-template-columns: repeat(3,1fr);
     align-items: center;
   }
+
   .top_right_img{
     width: 50px;
     height: auto;
   }
+
+  .header .greeting_container{
+    display: grid;
+    grid-template-columns: 10% 50% 40%; 
+  }
+
+
+
+  .header .menu ul{
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    grid-auto-flow: column;
+    margin-top: 30px;
+}
+
 
   .sidebar {
     display: grid;
