@@ -67,8 +67,14 @@
     grid-column: 1;
     grid-row: 1; 
   }
+
   .dashboard_logo {
     grid-row: 1;
+  }
+
+  #dashboard_img {
+    width: 100px;
+    height: auto;
   }
   
   /* .sidebar .dashboard_logo {
