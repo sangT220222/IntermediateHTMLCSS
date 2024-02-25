@@ -55,3 +55,11 @@
     display: grid;
     grid-column: 2/3;
   }
+
+  .announcements ul{
+    list-style-type: none;
+  }
+  
+  .trending ul{
+    list-style-type: none;
+  }
