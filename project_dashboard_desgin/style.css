@@ -100,7 +100,7 @@
   } */
   
   #dashboard_img {
-    width: 50px;
+    width: 70px;
     height: auto;
     margin-bottom: 10px;
   }
@@ -157,4 +157,26 @@
   .trending ul{
     display: grid;
     gap: 50px;
+  }
+  
+  .side-content-1{
+    display: flex;
+    /* grid-template-columns: 1fr 5fr; */
+    text-align: center;
+  }
+  
+  .side-content-1 img{
+    width:20px;
+    height: auto;
+  }
+  
+  .side-content-2 {
+    display: flex;
+    text-align: center;
+  }
+  
+  
+  .side-content-2 img{
+    width:20px;
+    height: auto;
   }
