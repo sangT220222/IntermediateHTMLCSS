@@ -9,12 +9,14 @@
   .master-container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-  
+    height: 100vh;
   }
+
   .container-1 {
     display: grid;
     /* grid-template-columns: 1fr 4fr; */
     grid-column: 2/3;
+    grid-template-rows: 1fr 3.5fr;
   }
   .container-2 {
     display: grid;
@@ -106,10 +108,14 @@
     display: grid;
     margin-left: 20px;
     margin-bottom: 40px;
+    gap: 20px;
   }
   
   .bottom-section{
+    display: grid;
+    margin-top: 10px;
     margin-left: 20px;
+    gap: 20px;
   }
   
   .dashboard_logo {
@@ -134,9 +140,9 @@
   .article {
     display: grid;
     grid-column: 1/2;
-    grid-row: 2;
+    /* grid-row: 2; */
     grid-template-columns: 7fr 3fr;
-    margin-top: 5px;
+    grid-template-rows: 1fr 15fr;
     background-color: #bbf7d0;
     /* gap: 20px; */
   }
@@ -146,11 +152,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   } */
-  .announcements_header {
+  /* .announcements_header {
     display: grid;
-    margin-bottom: 10px;
   }
-  
+   */
   .left_article {
     display: grid;
     grid-template-columns: 1fr 1fr;
