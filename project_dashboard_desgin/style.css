@@ -58,7 +58,7 @@
   }
   
   .top_right_img{
-    width: 50px;
+    width: 25px;
     height: auto;
   }
   
@@ -87,7 +87,7 @@
     /* margin-bottom: 10px; */
     display: grid;
     margin-left: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
   
   .bottom-section{
@@ -124,9 +124,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   } */
-  /* .announcements_header {
+  .announcements_header {
     display: grid;
-  } */
+    margin-bottom: 10px;
+  }
   
   .left_article {
     display: grid;
