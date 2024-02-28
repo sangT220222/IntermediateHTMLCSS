@@ -11,17 +11,19 @@
     grid-template-columns: 1fr 4fr;
     height: 100vh;
   }
-
+  
   .container-1 {
     display: grid;
     /* grid-template-columns: 1fr 4fr; */
     grid-column: 2/3;
     grid-template-rows: 1fr 4fr;
+    /* height: 80vh; */
   }
   .container-2 {
     display: grid;
     grid-row: 1;
     background-color: #dcfce7;
+    
   
   }
   /* .header {
@@ -65,9 +67,13 @@
   }
   
   .notify ul{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,69px);
     align-items: center;
     margin-right: 100px;
+  }
+  
+  #bold_it{
+    font-weight: bold;
   }
   
   .top_right_img{
@@ -142,17 +148,60 @@
     grid-column: 1/2;
     /* grid-row: 2; */
     grid-template-columns: 7fr 3fr;
-    grid-template-rows: 1fr 20fr;
+    grid-template-rows: 1fr 15fr;
     background-color: #bbf7d0;
     /* gap: 20px; */
   }
-
-
+  
+  
   .left_article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row:2;
   }
+  
+  .project_header{
+    margin-left: 10px;
+  }
+  
+  .card-1{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .card-2{
+    background-color: white;
+    margin-right: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .card-3{
+    background-color: white;
+    margin-right: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .card-4{
+    background-color: white;
+    margin-right: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .card-5{
+    background-color: white;
+    margin-right: 10px;
+    margin-right: 30px;
+    margin-bottom: 17px;
+  }
+  .card-6{
+    background-color: white;
+    margin-right: 10px;
+    margin-right: 30px;
+    margin-bottom: 17px;
+  }
+  
   
   .right_article{
     display: grid;
@@ -165,17 +214,20 @@
   .right_article ul {
     list-style-type: none;
   }
-
+  
   .announcements{
     display: grid;
     margin-bottom: 50px;
   }
-
+  
   .announcements ul{
     display: grid;
     gap: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
   }
-
+  
   .trending{
     display: grid;
     grid-template-rows: 20px 40px;
@@ -193,13 +245,11 @@
    .users h5:first-child {
     border-radius: 10px 10px 0 0; /* Rounded corner on the top left */
   } 
-
+  
   .users h5:last-child {
     border-radius: 0 0 10px 10px; /* Rounded corner on the bottom left */
   }
-
-
-
+  
   .side-content-1{
     display: flex;
     /* grid-template-columns: 1fr 5fr; */
